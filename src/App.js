@@ -7,6 +7,7 @@ function App() {
 
   function clickHandler() {
     setAudio(InputRef.current.value);
+    InputRef.current.value = "";
   }
 
   useEffect(() => {
